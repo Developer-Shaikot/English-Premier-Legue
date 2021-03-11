@@ -13,7 +13,7 @@ const TeamDetails = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeams(data.teams[0]));
-    } ,[])
+    } ,[idTeam])
     return (
         <div>
             <TeamData teams={teams}></TeamData>
