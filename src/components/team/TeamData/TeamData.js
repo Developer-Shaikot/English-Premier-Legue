@@ -39,7 +39,7 @@ const TeamData = (props) => {
              </div>
                 <p  style={DescriptionDEStyle}>{strStadiumDescription}</p>
                 <br/>
-                <small style={DescriptionDEStyle}> <a href={strTwitter}> <img src={imageTwitter} alt=""/> </a> </small>
+                <small style={DescriptionDEStyle}> <a href={`https://${strTwitter}`}> <img src={imageTwitter} alt=""/> </a> </small>
                 <small> <a href={strYoutube}> <img src={imageYoTube} alt=""/> </a> </small>
             </header>
         </div>
