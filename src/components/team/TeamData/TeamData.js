@@ -7,7 +7,7 @@ import './TeamData.css'
 const TeamData = (props) => {
     const { strTeam, strTeamBanner, intFormedYear, strCountry, strAlternate, strGender, strLeague, strStadiumDescription, strTwitter, strYoutube} = props.teams;
     console.log(props.teams);
-    const club ={hight:'80%', padding:'20px',width:'250px', padding: '20px', marginLeft: '90% auto'}
+    const club ={hight:'80%', padding:'20px',width:'250px', marginLeft: '90% auto'}
     const strTeamBadgeStyle = {hight:'80', width:'900px', borderRadius:'30px', padding: '10px'}
     const strTeamStyle = {backgroundColor:'cyan' , color:'black',border: '1px solid gray', borderRadius:'20px', margin: '30px', padding:'20px'}
     const DescriptionDEStyle = {margin:'20px', padding:'20px'}
